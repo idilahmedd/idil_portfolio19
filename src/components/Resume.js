@@ -66,7 +66,7 @@ export default  class Resume extends Component {
                <h1><span>Skills</span></h1>
             </div>
 
-            <div className="nine columns main-col">
+            {/* <div className="nine columns main-col">
 
                <p>
                {resumeData.skillsDescription}
@@ -90,7 +90,7 @@ export default  class Resume extends Component {
 
    				</div>
 
-   			</div>
+   			</div> */}
 
          </div>
 
