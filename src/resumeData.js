@@ -1,8 +1,8 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"https://idilahmed.dev",
     "name": "Idil Ahmed",
     "role": "Software Developer",
-    "linkedinId":"Your LinkedIn Id",
+    "email":"Idil.ahmedd@gmail.com",
     "roleDescription": "I like dabbling in various parts of frontend and backend development and like to learn about new technologies.",
     "socialLinks":[
         {
@@ -17,8 +17,8 @@ let resumeData = {
         },
         {
           "name":"resume",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "url":"",
+          "className":"fa fa-file"
         }
       ],
     "aboutme":"Personable, driven, and multifaceted professional who succeeds at providing solutions to complex problems. I am a highly analytical results driven Full Stack Developer using unique methods to identify business needs in order to improve internal and external processes and to maximize efficiency. I am driven to solve complex challenges and provide solutions for both businesses and clients.",
@@ -65,17 +65,20 @@ let resumeData = {
       {
         "name":"Kause",
         "description":"Full Stack Web Application",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/kause.png",
+        "url2":"https://github.com/idilahmedd/project4"
       },
       {
         "name":"KidConnect",
         "description":"Full Stack Web Application",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/portfolio/KidConnect.png",
+        "url2":"https://github.com/idilahmedd/project2"
       },
       {
         "name":"Speed",
         "description":"Front-End Web Game",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/speed.png",
+        "url2":"https://github.com/idilahmedd/project1"
       }
       
     ]
