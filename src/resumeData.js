@@ -17,7 +17,7 @@ let resumeData = {
         },
         {
           "name":"resume",
-          "url":"",
+          "url":"https://drive.google.com/file/d/1t06F1of1_BfH4XEOuKhvtL8fF8dIsDp2/view?usp=sharing",
           "className":"fa fa-file"
         }
       ],
@@ -43,22 +43,43 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillimg":"react.svg"
       },
       {
-        "skillname":"CSS"
+        "skillimg":"node.svg"
       },
       {
-        "skillname":"Reactjs"
+        "skillimg":"css.svg"
       },
       {
-        "skillname":"Node"
+        "skillimg":"django.svg"
       },
       {
-        "skillname":"JavaScript"
+        "skillimg":"express.svg"
       },
       {
-        "skillname":"Phython"
+        "skillimg":"graphQL.svg"
+      },
+      {
+        "skillimg":"postgres.svg"
+      },
+      {
+        "skillimg":"heroku.png"
+      },
+      {
+        "skillimg":"html.svg"
+      },
+      {
+        "skillimg":"JS.svg"
+      },
+      {
+        "skillimg":"mongodb.svg"
+      },
+      {
+        "skillimg":"python.svg"
+      },
+      {
+        "skillimg":"reactrouter.svg"
       }
     ],
     "portfolio":[
@@ -66,19 +87,19 @@ let resumeData = {
         "name":"Kause",
         "description":"Full Stack Web Application",
         "imgurl":"images/portfolio/kause.png",
-        "url2":"https://github.com/idilahmedd/project4"
+        "url":"https://www.github.com/idilahmedd/project4"
       },
       {
         "name":"KidConnect",
         "description":"Full Stack Web Application",
         "imgurl":"images/portfolio/KidConnect.png",
-        "url2":"https://github.com/idilahmedd/project2"
+        "url":"https://www.google.com/"
       },
       {
         "name":"Speed",
         "description":"Front-End Web Game",  
         "imgurl":"images/portfolio/speed.png",
-        "url2":"https://github.com/idilahmedd/project1"
+        "url":"https://www.github.com/idilahmedd/project1"
       }
       
     ]

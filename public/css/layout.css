@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
+   /* background:url(../images/rainbow.jpeg) no-repeat top center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: rgb(196, 89, 7);
 }
 #about .profile-pic {
    position: relative;
@@ -268,7 +268,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color:rgb(196, 89, 7);
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -284,8 +284,10 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
-.bars {
+.skill-row {
+   margin: auto 250px;
+}
+/* .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
@@ -404,7 +406,7 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -512,7 +514,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* popup modal */
-.popup-modal {
+/* .popup-modal {
 	max-width: 550px;
 	background: #fff;
 	position: relative;
@@ -554,7 +556,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
-
+ */
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -791,7 +793,7 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color:rgb(196, 89, 7);
 }
 #contact .section-head { margin-bottom: 42px; }
 
