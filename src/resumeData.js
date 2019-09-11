@@ -99,7 +99,7 @@ let resumeData = {
         "name":"Speed",
         "description":"Front-End Web Game",  
         "imgurl":"images/portfolio/speed.png",
-        "url":"https://www.github.com/idilahmedd/project1"
+        "url":"https://idilahmedd.github.io/project1/"
       }
       
     ]
