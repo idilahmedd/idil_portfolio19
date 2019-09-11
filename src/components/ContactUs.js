@@ -7,18 +7,19 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any inquiries:
+              Want to learn more about me?
               </p>
             </div>
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Email- 
+              <span className="widget">
                 <a href='mailto:idil.ahmedd@gmail.com'>
-                  {resumeData.email}</a>
+                <h4>Click <span style={{color:'rgb(196, 89, 7)'}}>here </span>to reach out!
+                  {/* {resumeData.email} */}
                 </h4>
-              </div>
+                  </a>
+              </span>
             </aside>
           </div>
         </section>

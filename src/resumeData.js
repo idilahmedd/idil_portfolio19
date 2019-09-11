@@ -93,7 +93,7 @@ let resumeData = {
         "name":"KidConnect",
         "description":"Full Stack Web Application",
         "imgurl":"images/portfolio/KidConnect.png",
-        "url":"https://www.google.com/"
+        "url":"https://calm-lake-78124.herokuapp.com/"
       },
       {
         "name":"Speed",
