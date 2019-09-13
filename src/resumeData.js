@@ -87,7 +87,7 @@ let resumeData = {
         "name":"Kause",
         "description":"Full Stack Web Application",
         "imgurl":"images/portfolio/kause.png",
-        "url":"https://www.github.com/idilahmedd/project4"
+        "url":"https://kause.herokuapp.com/"
       },
       {
         "name":"KidConnect",
