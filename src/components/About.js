@@ -35,6 +35,8 @@ export default class About extends Component {
                     <br></br>
                     <span>
                     <a href='mailto:idil.ahmedd@gmail.com'>
+                    <i className={resumeData.className}></i>
+                  <span>      </span>
                     {resumeData.email}</a></span>
        					   </p>
                   </div>

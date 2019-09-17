@@ -100,15 +100,31 @@ header .social {
    padding: 0;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   transition: 250ms ease-in-out;
+   text-decoration: none;
 }
 header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
+   
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a span {
+   font-size: 0.9rem;
+   color: transparent;
+   transition: 300ms ease-in-out;
+}
+header .social li a { color: #fff;}
+header .social li a span { color: #fff;}
 
+header .social li a:hover { 
+   transform: scale(4.25); 
+   color:rgb(95, 182, 194);   
+}
+
+header .social li a span:hover { 
+   color:rgb(95, 182, 194);   
+}
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
@@ -284,6 +300,13 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume .info2 {
+   line-height: 20px;
+   color: rgb(196, 89, 7);
+   /* font: 12px/24px 'librebaskerville-italic', serif; */
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -296,9 +319,23 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-.skill-row {
+/* #resume .skill-row {
    margin: auto 250px;
-}
+} */
+/* @media screen and (max-width: 375px) {
+   #resume .skill-row {
+      width: 45%;
+      /* margin-bottom: 8vh; */
+      /* padding: 0.9rem;
+      align-content: center;
+   } */
+
+   /* #resume .skill-row div {
+      width: 30%;
+      justify-content: center;
+      margin-bottom: 0.6rem;
+   } */
+/* } */ */
 /* .bars {
 	width: 95%;
 	float: left;
