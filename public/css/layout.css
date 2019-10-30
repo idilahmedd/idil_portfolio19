@@ -29,6 +29,10 @@ body { background: #0f0f0f; }
 a, button {
    pointer-events: all;
 }
+
+.App {
+   overflow-x: hidden;
+}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -42,10 +46,14 @@ a, button {
 @media only screen and (max-width: 768px, 375px, 320px, 425px){
    .particles {
       position: fixed !important;
-      right: 200px;
-      bottom: 650px;
+      right: 0;
+      bottom: 0;
       left: 0;
       z-index: -1 !important;
+   }
+   .particles-js-canvas-el {
+      height: 100vmax !important;
+      z-index: 0;
    }
 }
 
