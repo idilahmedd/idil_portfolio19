@@ -35,11 +35,20 @@ a, button {
 .particles {
    position: fixed !important;
    right: 0;
-   right: 0;
    bottom: 0;
    left: 0;
    z-index: -1 !important;
 }
+@media only screen and (max-width: 768px, 375px, 320px, 425px){
+   .particles {
+      position: fixed !important;
+      right: 200px;
+      bottom: 650px;
+      left: 0;
+      z-index: -1 !important;
+   }
+}
+
 header {
    position: relative;
    height: 800px;
@@ -64,7 +73,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -168,10 +177,21 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
+@media only screen and (max-width: 768px, 375px, 320px, 425px){
+   #nav-wrap .opaque{
+      font: 12px 'opensans-bold', sans-serif;
+      background: transparent !important;
+      letter-spacing: 1.5px;
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 145px;
+   }
+}
 .opaque { background-color: #333; }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+/* #nav-wrap > a.mobile-btn { display: none; } */
 
 ul#nav {
    min-height: 48px;
@@ -320,9 +340,9 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 #resume .skill-row {
-   margin: auto 230px;
+   margin: auto 150px;
 }
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 768px, 375px, 320px, 425px) {
    #resume .skill-row {
       width: 25%;
       margin-bottom: 8vh;
@@ -331,12 +351,14 @@ ul#nav li.current a { color: #F06000; }
    } 
 
    #resume .skill-row div {
-      width: 30%;
-      justify-content: center;
-      margin-bottom: 0.6rem;
+      width: 100%;
+      /* justify-content: center; */
+      /* margin-bottom: 0.6rem; */
+   }
+   #resume .skills { 
+      height: 70%;
    }
 } 
-
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -361,8 +383,14 @@ ul#nav li.current a { color: #F06000; }
 #portfolio-wrapper .columns { 
    margin-bottom: 36px; 
 }
+
 #portfolio-wrapper { 
    width: 145%; 
+   padding-right: 165px;
+}
+
+.bgrid-quarters [class*="column"] {
+   width: 39%;
 }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -426,14 +454,15 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 20px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 16px/18px 'opensans-light', sans-serif;
    color: white;
    margin-bottom: 0;
 }
