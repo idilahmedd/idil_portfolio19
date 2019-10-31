@@ -14,10 +14,13 @@ export default class Header extends Component {
           }
         },
         "interactivity": {
+          "detect_on": "window",
           "events": {
             "onhover": {
               "enable": true,
-              "mode": "repulse"
+              "density_auto": true,
+              "density_area": 400, 
+              "mode": "bubble"
             }
           }
         }
