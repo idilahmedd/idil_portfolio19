@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
+
     var moving = < Particles className="particles"
       params={{
         "particles": {
@@ -10,7 +11,8 @@ export default class Header extends Component {
             "value": 50
           },
           "size": {
-            "value": 3
+            "value": 3,
+            "resize": true
           }
         },
         "interactivity": {
@@ -18,12 +20,14 @@ export default class Header extends Component {
           "events": {
             "onhover": {
               "enable": true,
-              "density_auto": true,
-              "density_area": 400, 
               "mode": "bubble"
+            },
+            "onresize": {
+            "density_auto": true,
+            "density_area": 400, 
             }
-          }
         }
+      }
       }} />
       
       
