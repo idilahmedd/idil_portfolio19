@@ -5,7 +5,7 @@ export default class Resume extends Component {
     if (this.props.resumeData) {
       var skills = this.props.resumeData.skills.map(function (skills) {
         var skillsImage = 'images/' + skills.skillimg;
-        return <div className="columns portfolio-item" key={skills.name}><em>{skills.name}<img width={100} height={100} alt={skills.name} src={skillsImage} /></em></div>
+        return <div className="columns portfolio-item" key={skills.name}><em>{skills.name}<img width={50} height={100} alt={skills.name} src={skillsImage} /></em></div>
       })
     }
     return (
@@ -39,7 +39,7 @@ export default class Resume extends Component {
           <h1><span>Skills</span></h1>
         </div>
           <div className="skill-row">
-            <div className="twelve columns collapsed">
+            <div className="open">
               <div className="skills">
                 {skills}
               </div>

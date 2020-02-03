@@ -365,24 +365,19 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-#resume .skill-row {
-   margin: auto 150px;
+#resume .skill-row .open {
+   margin: 80px 199px auto 240px;
 }
-@media screen and (max-width: 768px, 375px, 320px, 425px) {
+@media only screen and (max-width: 768px, 375px, 320px, 425px) {
    #resume .skill-row {
-      width: 25%;
-      margin-bottom: 8vh;
-      padding: 0.9rem;
-      align-content: center;
+      width: 35%;
+      margin: auto 20px;
+      /* padding: 0.9rem; */
+      /* align-content: center; */
    } 
 
-   #resume .skill-row div {
-      width: 100%;
-      /* justify-content: center; */
-      /* margin-bottom: 0.6rem; */
-   }
    #resume .skills { 
-      height: 70%;
+      width: 100%
    }
 } 
 

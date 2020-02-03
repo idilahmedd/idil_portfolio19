@@ -49,43 +49,56 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
-        "skillimg":"react.svg"
+        "skillimg":"react.svg",
+        'name': "React"
       },
       {
-        "skillimg":"node.svg"
+        "skillimg":"node.svg",
+        'name': "Node.JS"
       },
       {
-        "skillimg":"css.svg"
+        "skillimg":"css.svg",
+        'name': "CSS"
       },
       {
-        "skillimg":"django.svg"
+        "skillimg":"django.svg",
+        'name': "Django"
       },
       {
-        "skillimg":"express.svg"
+        "skillimg":"express.svg",
+        'name': "Express"
       },
       {
-        "skillimg":"graphQL.svg"
+        "skillimg":"graphQL.svg",
+        'name': "GraphQL"
       },
       {
-        "skillimg":"postgres.svg"
+        "skillimg":"postgres.svg",
+        'name': "Postgress"
       },
       {
-        "skillimg":"heroku.png"
+        "skillimg":"heroku.png",
+        'name': "Heroku"
       },
       {
-        "skillimg":"html.svg"
+        "skillimg":"html.svg",
+        'name': "HTML"
       },
       {
-        "skillimg":"JS.svg"
+        "skillimg":"JS.svg",
+        'name': "JavaScript"
       },
       {
-        "skillimg":"mongodb.svg"
+        "skillimg":"mongodb.svg",
+        'name': "MongoDB"
       },
       {
-        "skillimg":"python.svg"
+        "skillimg":"python.svg",
+        'name': "Python"
       },
       {
-        "skillimg":"reactrouter.svg"
+        "skillimg":"reactrouter.svg",
+        'name': "React Router"
       }
     ],
     "portfolio":[
